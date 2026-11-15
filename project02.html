@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Qunoot| Portfolio</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container">
+    <a class="navbar-brand" href="#home">Qunoot.<span>CV</span></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navLinks" aria-controls="navLinks"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navLinks">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+        <li class="nav-item"><a class="nav-link" href="#about">Personal info</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Clients">Clients</a></li>
+        <li class="nav-item"><a class="btn btn-warning rounded-pill px-4" href="cv.pdf">Download CV</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="home" class="hero-section">
+  <div class="container">
+    <div class="row align-items-center gy-5 gx-md-5">
+
+      <div class="col-md-6 order-2">
+        <h1>Hi, I'm Qunoot</h1>
+        <h2 style="color:rgb(37, 37, 110)">Experienced content <br>marketer and editor.</h2>
+        <h5>Copywriter / Content marketer / Editor</h5>
+        <p class="hero-description mt-4" style="color:rgb(37, 37, 110);">
+          Content marketing is an approach that helps your brand build long-term relationships with a user and gain his trust.
+          I know everything about content marketing and its techniques, and I will be happy to help you promote your project.
+        </p><br>
+        <h6 class="hero-status mt-3"><span style="color: rgb(98, 98, 99);">I'm open for new job opportunities - if you would like to discuss your project,<br>
+          I'm available at <a href="mailto:qunoot@gmail.com" class="contact-link">qunoot@gmail.com</a>
+          or <a href="tel:0799999999" class="contact-link">0799999999</a></span></h6>
+
+        <br><br>
+        <h6 class="mt-5">Facebook·LinkedIn·Twitter·Instagram</h6>
+      </div>
+
+      <div class="col-md-6 order-1">
+        <div class="photo-frame">
+          <img src="qby.webp" alt="QBY">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+<!-- PERSONAL INFO -->
+<section id="about" class="section-pad py-5">
+  <div class="container">
+
+    <div>
+      <h3 class="section-title">Personal info</h3>
+      <hr>
+    </div>
+
+    <div>
+      <p class="body-copy" style="font-weight: bold;">
+        I believe that a convincing text combined with beautiful visuals and competent analytics can give excellent results,
+        better than any separate advertising channel. I manage the entire cycle of content marketing,
+        from strategy development to posting articles on internal and external resources.<br>
+        Writing articles and web copy, content creation, editing and optimization,
+        analytics – these are just some of the services I offer.
+      </p>
+
+      <img src="info.webp" alt="info" height="400" style="max-width:100%;">
+    </div>
+
+    <div class="row gy-5 mt-4">
+
+      <div class="col-lg-6">
+        <br>
+        <h4 style="font-weight: bold;"><span style="color:rgb(37, 37, 110)">I really love content marketing and always treat each project of my clients as my own.</span></h4>
+        <br>
+        <p>I wrote my first copy for a car magazine when I was a student. It was my first job that influenced my future career.
+          Today I'm a copywriter, content marketer, editor, and I'm proud of the following<span style="color:red"> main skills</span>:</p>
+        <br>
+        <ul class="skills-list ps-3">
+          <li>Content marketing strategy</li>
+          <li>Writing articles and copy</li>
+          <li>Editing, proofreading</li>
+          <li>Creating layouts</li>
+          <li>Managing a copywriting team</li>
+          <li>Deep Analytics</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="row g-6">
+          <br><br><br><br>
+          <div class="col-6 stat-box"><img class="stat-img" src="450.svg" alt="Posted articles" height="80" width="80">
+            <strong style="font-size:30px;"><br>450+<br></strong><span><br>Posted articles</span>
+          </div>
+          <div class="col-6 stat-box"><img class="stat-img" src="unique.svg" alt="Unique copy" height="80" width="80">
+            <strong style="font-size:30px;"><br>100%<br></strong><span><br>Unique copy</span>
+          </div>
+          <div class="col-6 stat-box"><br><img class="stat-img" src="16.svg" alt="Managed projects" height="80" width="80">
+            <strong style="font-size:30px;"><br>16<br></strong><span><br>Managed projects</span>
+          </div>
+          <div class="col-6 stat-box"><br><img class="stat-img" src="3billion.svg" alt="Lines of text" height="80" width="80">
+            <strong style="font-size:30px;"><br>3 billion<br></strong><span><br>Lines of text</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SOFTWARE I USE -->
+<section id="software" class="section-pad py-5">
+  <div class="container">
+
+    <h2 class="section-title mt-5">Software I use</h2>
+    <hr>
+    <p class="body-copy">Here's a list of the software I use everyday in my work:</p>
+
+    <div id="softwareCarousel" class="carousel slide software-carousel" data-bs-ride="false">
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <div class="col-md-4"><div class="sw-card sw-blue"><img src="jira.svg" alt="Jira"><h4>Jira</h4><span class="level">Middle</span><p>I can assign tasks on other team members, manage boards, etc.</p></div></div>
+            <div class="col-md-4"><div class="sw-card sw-green"><img src="gramarly.svg" alt="Grammarly"><h4>Grammarly</h4><span class="level">Expert</span><p>I have a premium Grammarly account that eliminates any chance of misprints.</p></div></div>
+            <div class="col-md-4"><div class="sw-card sw-red"><img src="figma.svg" alt="Figma"><h4>Figma</h4><span class="level">Middle</span><p>I can draw a layout for a landing page, make changes to the texts in an existing layout.</p></div></div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-4"><div class="sw-card sw-green"><img src="gramarly.svg" alt="Grammarly"><h4>Grammarly</h4><span class="level">Expert</span><p>I have a premium Grammarly account that eliminates any chance of misprints.</p></div></div>
+            <div class="col-md-4"><div class="sw-card sw-red"><img src="figma.svg" alt="Figma"><h4>Figma</h4><span class="level">Middle</span><p>I can draw a layout for a landing page, make changes to the texts in an existing layout.</p></div></div>
+            <div class="col-md-4"><div class="sw-card sw-yellow"><img src="googlea.svg" alt="Google Analytics"><h4>Google Analytics</h4><span class="level">Senior</span><p>I track the results of traffic, unique visitors, clicks, get monthly reports for the clients.</p></div></div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-4"><div class="sw-card sw-red"><img src="figma.svg" alt="Figma"><h4>Figma</h4><span class="level">Middle</span><p>I can draw a layout for a landing page, make changes to the texts in an existing layout.</p></div></div>
+            <div class="col-md-4"><div class="sw-card sw-yellow"><img src="googlea.svg" alt="Google Analytics"><h4>Google Analytics</h4><span class="level">Senior</span><p>I track the results of traffic, unique visitors, clicks, get monthly reports for the clients.</p></div></div>
+            <div class="col-md-4"><div class="sw-card sw-teal"><img src="basecamp.svg" alt="Basecamp"><h4>Basecamp</h4><span class="level">Middle</span><p>I use Basecamp to set tasks, create to-do lists, and write daily and weekly reports.</p></div></div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-4"><div class="sw-card sw-yellow"><img src="googlea.svg" alt="Google Analytics"><h4>Google Analytics</h4><span class="level">Senior</span><p>I track the results of traffic, unique visitors, clicks, get monthly reports for the clients.</p></div></div>
+            <div class="col-md-4"><div class="sw-card sw-teal"><img src="basecamp.svg" alt="Basecamp"><h4>Basecamp</h4><span class="level">Middle</span><p>I use Basecamp to set tasks, create to-do lists, and write daily and weekly reports.</p></div></div>
+            <div class="col-md-4"><div class="sw-card sw-blue"><img src="jira.svg" alt="Jira"><h4>Jira</h4><span class="level">Middle</span><p>I can assign tasks on other team members, manage boards, etc.</p></div></div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-4"><div class="sw-card sw-teal"><img src="basecamp.svg" alt="Basecamp"><h4>Basecamp</h4><span class="level">Middle</span><p>I use Basecamp to set tasks, create to-do lists, and write daily and weekly reports.</p></div></div>
+            <div class="col-md-4"><div class="sw-card sw-blue"><img src="jira.svg" alt="Jira"><h4>Jira</h4><span class="level">Middle</span><p>I can assign tasks on other team members, manage boards, etc.</p></div></div>
+            <div class="col-md-4"><div class="sw-card sw-green"><img src="grammarly.svg" alt="Grammarly"><h4>Grammarly</h4><span class="level">Expert</span><p>I have a premium Grammarly account that eliminates any chance of misprints.</p></div></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#softwareCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#softwareCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#softwareCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#softwareCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#softwareCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#softwareCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#softwareCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<!-- WORK EXPERIENCE -->
+<section id="experience" class="work-exp">
+  <div class="container">
+
+    <h2 class="section-title">Work Experience</h2>
+    <hr>
+    <p class="body-copy">To get a complete list of the companies I've worked with, download my resume.</p>
+
+    <!-- job 1 -->
+    <div class="row gy-5 job job--stripes">
+
+      <div class="col-lg-4">
+        <img class="job-logo" src="smashing.svg" alt="Smashing Magazine">
+        <h4 class="job-company">Smashing Magazine</h4>
+        <div class="job-date">Jan 2024 - Current Time</div>
+        <h6 class="job-role">Content Marketing Strategist</h6>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="job-group">
+          <h5>Responsibility:</h5>
+          <ul class="dot-list">
+            <li>Produce in-depth articles</li>
+            <li>Work on the content strategy</li>
+          </ul>
+        </div>
+        <div class="job-group">
+          <h5>Achievements:</h5>
+          <ul class="dot-list">
+            <li>Produced 150+ articles and guides</li>
+            <li>Doubled the retention rate</li>
+          </ul>
+        </div>
+        <div class="job-group">
+          <h5>Project Management System:</h5>
+          <ul class="dot-list">
+            <li>JIRA, Basecamp</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="job-group">
+          <h5>My duties included:</h5>
+          <ul class="dot-list spaced">
+            <li>revision of the content strategy;</li>
+            <li>monthly content plan creation;</li>
+            <li>managing 10 writers;</li>
+            <li>writing op-eds;</li>
+            <li>proofreading, editing;</li>
+            <li>creating special projects.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <hr class="job-sep">
+
+    <!-- job 2 -->
+    <div class="row gy-5 job">
+
+      <div class="col-lg-4">
+        <img class="job-logo" src="medium.svg" alt="Medium">
+        <h4 class="job-company">Medium</h4>
+        <div class="job-date">Apr 2023 - Dec 2024</div>
+        <h6 class="job-role">Chief Editor</h6>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="job-group">
+          <h5>Responsibility:</h5>
+          <ul class="dot-list">
+            <li>Edit and proofread articles</li>
+            <li>Manage a team of authors</li>
+          </ul>
+        </div>
+        <div class="job-group">
+          <h5>Achievements:</h5>
+          <ul class="dot-list">
+            <li>Introduced monthly analytics</li>
+            <li>Improved the quality of all published articles</li>
+          </ul>
+        </div>
+        <div class="job-group">
+          <h5>Project Management System:</h5>
+          <ul class="dot-list">
+            <li>JIRA, Trello, Basecamp</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="job-group">
+          <h5>My duties included:</h5>
+          <ul class="dot-list spaced">
+            <li>writing, editing and optimizing content;</li>
+            <li>managing 25 writers;</li>
+            <li>managing organic social media strategy;</li>
+            <li>increasing traffic during a SEO project;</li>
+            <li>hiring and managing freelance writers;</li>
+            <li>overseeing all social media projects.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- EDUCATION -->
+    <div class="edu">
+      <h2 class="section-title">Education</h2>
+      <hr>
+      <p class="body-copy">I constantly study and take additional courses on marketing and creative writing.</p>
+
+      <div class="timeline">
+
+        <!-- LinkedIn (يسار) -->
+        <div class="tl-item tl-left">
+          <div class="tl-text">
+            <h4>Linkedin Courses</h4>
+            <span class="tl-sub">Marketing</span>
+            <p><strong>With an emphasis on:</strong> brand value, brand personality, customer lifetime value, marketing experiments, viral marketing, performance marketing, and search engine optimization.</p>
+            <span class="tl-date">Jan 2022 - May 2022</span>
+          </div>
+          <div class="tl-circle" style="--bg:#0a66c2"><img src="in.svg" alt="LinkedIn"></div>
+        </div>
+
+        <!-- Coursera (يمين) -->
+        <div class="tl-item tl-right">
+          <div class="tl-circle" style="--bg:#2f73bd"><img src="coursera.svg" alt="Coursera"></div>
+          <div class="tl-text">
+            <h4>Coursera</h4>
+            <span class="tl-sub">Brand &amp; Content Marketing</span>
+            <p><strong>With an emphasis on</strong> storytelling, inbound marketing, virality<br> branded content and entertainment, gamification in articles,<br> headlines, clickbaits and deception.</p>
+            <span class="tl-date">Aug 2021 - Apr 2022</span>
+          </div>
+        </div>
+
+        <!-- Lynda (يسار) -->
+        <div class="tl-item tl-left">
+          <div class="tl-text">
+            <h4>Lynda</h4>
+            <span class="tl-sub">Copywriting</span>
+            <p><strong>With an emphasis on</strong> creative writing, principles of advertising, theories of mass communication, intercultural communication, AIDA approach, editing and proofreading.</p>
+            <span class="tl-date">Sep 2020 - Aug 2021</span>
+          </div>
+          <div class="tl-circle" style="--bg:#f8c200"><img src="lynda.svg" alt="Lynda"></div>
+        </div>
+
+        <!-- Cornell (يمين) -->
+        <div class="tl-item tl-right">
+          <div class="tl-circle" style="--bg:#c64a4d"><img class="logo-wide" src="cornell.svg" alt="Cornell"></div>
+          <div class="tl-text">
+            <h4>Cornell University</h4>
+            <span class="tl-sub">Bachelor of Science, Marketing</span>
+            <p><strong>With an emphasis on</strong> consumer behavior, marketing management, copy writing, market research, content strategy, business law, outreach, inbound marketing, etc.</p>
+            <span class="tl-date">Sep 2018 - Aug 2019</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="Clients" class="testimonials">
+  <div class="container">
+
+    <h2 class="section-title">Testimonials</h2>
+    <hr>
+    <p class="body-copy">What my clients are saying about me and my work.</p>
+
+    <div id="testiCarousel" class="carousel slide testi-carousel" data-bs-ride="false">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="testi-img" src="susan.png" alt="Susan">
+        </div>
+        <div class="carousel-item">
+          <img class="testi-img" src="aloise.png" alt="Aloïse Simmer">
+        </div>
+        <div class="carousel-item">
+          <img class="testi-img" src="daniel.png" alt="Daniel">
+        </div>
+      </div>
+
+      <!-- النقاط -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#testiCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#testiCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#testiCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+      <!-- الأسهم -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testiCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testiCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED CLIENTS -->
+<section id="featured-clients" class="features">
+  <div class="container">
+
+    <h2 class="section-title">Features clients</h2>
+    <hr>
+    <p class="body-copy">Over the past ten years, I've been fortunate to work with these great companies and services.</p>
+
+    <div id="clientsCarousel" class="carousel slide clients-carousel" data-bs-ride="false">
+
+      <div class="carousel-inner">
+
+        <!-- سلايد 1: كرت 1، 2، 3 -->
+        <div class="carousel-item active">
+          <div class="row g-4">
+            <div class="col-md-4"><img class="cl-img" src="google.png" alt="Google News"></div>
+            <div class="col-md-4"><img class="cl-img" src="msn.png" alt="MSN"></div>
+            <div class="col-md-4"><img class="cl-img" src="aws.png" alt="Amazon Web Services"></div>
+          </div>
+        </div>
+
+        <!-- سلايد 2: كرت 3، 4، 5 -->
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-4"><img class="cl-img" src="aws.png" alt="Amazon Web Services"></div>
+            <div class="col-md-4"><img class="cl-img" src="99.png" alt="99 designs"></div>
+            <div class="col-md-4"><img class="cl-img" src="facebook.png" alt="Facebook"></div>
+          </div>
+        </div>
+
+        <!-- سلايد 3: كرت 4، 5، 6 -->
+        <div class="carousel-item">
+          <div class="row g-4">
+            <div class="col-md-4"><img class="cl-img" src="99.png" alt="99 designs"></div>
+            <div class="col-md-4"><img class="cl-img" src="facebook.png" alt="Facebook"></div>
+            <div class="col-md-4"><img class="cl-img" src="aws.png" alt="Amazon Web Services"></div>
+          </div>
+        </div>
+
+      </div> <!-- نهاية carousel-inner -->
+
+      <!-- النقاط -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#clientsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#clientsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#clientsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+
+    </div> <!-- نهاية clientsCarousel -->
+  </div>   <!-- نهاية container -->
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="row gy-5">
+
+      <div class="col-lg-8">
+        <h2 class="contact-title">Need a skilled content marketer?<br>Contact me and tell about your project!</h2>
+        <hr>
+        <p class="contact-say">Say Hello at <a href="mailto:qunoot@gmail.com">qunoot@gmail.com</a> or <a href="tel:0799999999">0799999999</a></p>
+      </div>
+
+      <div class="col-lg-4">
+        <h5 class="contact-list-title">Bring me in for:</h5>
+        <ul class="dot-list contact-list">
+          <li>Content strategy</li>
+          <li>Copywriting</li>
+          <li>Editing &amp; proofreading</li>
+          <li>Storytelling</li>
+          <li>Inbound &amp; outreach marketing</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container d-flex justify-content-between align-items-center flex-wrap gap-4">
+
+    <a class="footer-brand" href="#home">Qunoot.<span>CV</span></a>
+
+    <div class="footer-right d-flex align-items-center flex-wrap gap-4">
+      <a class="footer-link" href="#about">Personal Info</a>
+      <a class="footer-link" href="#experience">Experience</a>
+      <a class="footer-link" href="#Clients">Clients</a>
+
+      <div class="footer-social d-flex gap-3">
+        <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i>
+        <img src="linkedin-icon.svg" alt="linkedIn" height="20" width="20"></a>
+        <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i>
+          <img src="facebook-icon.svg" alt="Facebook" height="20" width="20"></a>
+        <a href="#" aria-label="Twitter"><i class="bi bi-twitter"></i>
+          <img src="twitter-icon.svg" alt="Twitter" height="20" width="20"></a>
+        <a href="mailto:qunoot@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i>
+          <img src="email-icon.svg" alt="Email" height="20" width="20"></a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- CHAT BUTTON -->
+<a href="mailto:qunoot@gmail.com" class="chat-btn" aria-label="Send me a message">
+  <svg width="32" height="30" viewBox="0 0 32 30" aria-hidden="true">
+    <defs>
+      <linearGradient id="chatGrad" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0" stop-color="#ffffff"/>
+        <stop offset="1" stop-color="#bccaf3"/>
+      </linearGradient>
+    </defs>
+    <path transform="rotate(-3 16 14)" d="M3 5.5Q3 4 4.5 4h23Q29 4 29 5.5v13Q29 20 27.5 20H18l-2.2 4.2L13.6 20H4.5Q3 20 3 18.5z" fill="url(#chatGrad)"/>
+  </svg>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
